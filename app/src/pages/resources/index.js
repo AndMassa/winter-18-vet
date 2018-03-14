@@ -1,13 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { map, compose, split, head } from 'ramda'
-import List, {
-  ListItem,
-  ListItemAvatar,
-  ListItemIcon,
-  ListItemSecondaryAction,
-  ListItemText
-} from 'material-ui/List'
+import List, { ListItem, ListItemAvatar, ListItemText } from 'material-ui/List'
 import Avatar from 'material-ui/Avatar'
 import FolderIcon from 'material-ui-icons/Folder'
 const Resources = props => {
@@ -22,9 +16,11 @@ const Resources = props => {
             return (
               <div>
                 <List>
-                  <ListItem>
+                  <ListItem divider={true}>
                     <ListItemAvatar>
-                      <Avatar>{r.name.charAt(0)}</Avatar>
+                      <Avatar style={{ color: 'white', background: 'black' }}>
+                        {r.name.charAt(0)}
+                      </Avatar>
                     </ListItemAvatar>
                     <ListItemText primary={r.name} secondary={r.shortDesc} />
                   </ListItem>
