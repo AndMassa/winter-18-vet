@@ -202,7 +202,7 @@ db.bulkDocs([
     ]
   },
   {
-    _id: ' resource_fleet-and-family-support-center',
+    _id: 'resource_fleet-and-family-support-center',
     type: 'resource',
     categoryId: 'category_basic-needs-assistance',
     name: 'Family Support',
@@ -235,7 +235,7 @@ db.bulkDocs([
     ]
   },
   {
-    _id: ' resource_goodwill-industries-of-lower-south-carolina',
+    _id: 'resource_goodwill-industries-of-lower-south-carolina',
     type: 'resource',
     categoryId: 'category_basic-needs-assistance',
     name: 'Goodwill',
@@ -267,7 +267,7 @@ db.bulkDocs([
     ]
   },
   {
-    _id: " resource_my-sister's-house",
+    _id: "resource_my-sister's-house",
     type: 'resource',
     categoryId: 'category_basic-needs-assistance',
     name: "My Sister's House",
